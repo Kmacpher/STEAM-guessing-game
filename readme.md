@@ -2,6 +2,7 @@
 
 - Link to workshop walkthrough: https://kmacpher.github.io/STEAM-guessing-game/
 - Link to slides: https://slides.com/karenmacpherson/how-do-we-make-a-game
+- Link to solution: https://github.com/Kmacpher/STEAM-guessing-game-solution
 
 ### Instructor Lesson Plan - topics to cover
 _More instructions for each topic can be found in the presenter notes in the slides_

@@ -10,16 +10,19 @@ You are embarking on the beginning of your programming journey. How exciting! In
   - The game should give the player a hint after each guess, helping them know whether to guess lower or higher, and how close they are.
   - After 5 unsuccessful guesses, the game is over and the player loses.
 
-Take a moment to open up and study [the finished product]().
+Take a moment to open up and study [the finished product](https://kmacpher.github.io/STEAM-guessing-game-solution/).
 
 While simple, there's A LOT of logic that you must figure out before the game will work. Games can be deceptively difficult. Additionally, we want to make sure our game is also visually pleasing to our player! We are not using any special tools or frameworks in this workshop--that meanst this game will be made FROM SCRATCH, which will give you an introduction to the basics of using HTML, CSS, and JavaScript.
 
-To get started, download the starting code from [this link]().
+To get started, download the starting code from [this link](https://www.dropbox.com/s/k1d2fy1fp1vp66x/guessingGame.zip?dl=0).
 
-TODO DIRECTIONS ON OPENING THE STARTER CODE
--visual studio code
--open up the folder so you can see all of the things
--right click on your index.html and open it with your favorite browser
+Dropbox will ask you to sign in. Please hit ignore. Then in the top right corner of the screen, click on the direct download button and download the .zip file to your Downloads folder.
+
+Open up Explorer and navigate to your downloaded package. Right click on the package and click 'unzip'. Next, open up the program 'Visual Studio Code'. Inside visual studio Code, click on File > open. Find the folder you just unzipped, and click on it. This will open up the starter code in Visual Studio Code.
+
+Next, we want to load up the beginnings of our game in the browser. So from Explorer, double click on the package that you unzipped called guessingGame. Then, double click on the index.html file. This will open it in the browser.
+
+You're all ready to go now! The rest of the work will be done in Visual Studio Code, while switching to the browser to see how the final result is coming along.
 
 ## CSS Review - Tags, Ids, and Classes
 
