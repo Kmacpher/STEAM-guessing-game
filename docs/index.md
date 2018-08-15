@@ -93,64 +93,9 @@ Remember that you need to save your files AND refresh the page in your browser i
 
 Remember to add `<link rel="stylesheet" href="style.css" />` to your index.html before continuing.
 
-<details>
-<summary>Click here to see the solution--Make sure you try on your own first!</summary>
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Guessing Game</title>
+**[Click Here](./htmlSolution.md) to see the solution--Make sure you try on your own first!**
 
-    <!-- CSS and Javascript links go here -->
-    <link rel="stylesheet" href="style.css" />
-
-  </head>
-  <body>
-
-      <div id="app">
-
-        <div class="center">
-          <h1>Play the Guessing Game!</h1>
-          <h3 id="subtitle">Guess a number between 1-100!</h3>
-        </div>
-
-        <div>
-          <div id="input-parent">
-            <input class="center" id="player-input" maxlength='3' autofocus=autofocus></input>
-            <button id="submit">Go!</button>
-          </div>
-
-          <div class="center">
-            <ul id="guess-list">
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-
-
-
-    <div id="footer" class="center">
-
-          <div>
-            <h4>Project by YOUR NAME HERE</h4>
-          </div>
-
-        </div>
-    </div>
-
-  </body>
-</html>
-
-```
-
-</details>
 
 When you are done, your project should look something like this:
 ![stylesfinished](http://res.cloudinary.com/djv2qbdxe/image/upload/v1534290388/Screen_Shot_2018-08-14_at_7.45.14_PM_ydwh2a.png)
@@ -269,32 +214,7 @@ function checkGuess(playersGuess, winningNumber, pastGuesses) {
 
 For each of these decision points, you will need an if/else statement, and at least one of the functions defined in `game.js`. Don't be afraid to ask for help!
 
-<details>
-<summary>Click here to see the solution--Make sure you try on your own first!</summary>
 
-```javascript
-
-function checkGuess(playersGuess, winningNumber, pastGuesses) {
-
-    if (isWinningGuess(playersGuess, winningNumber)) {
-        youWin();
-    } else {
-        if (isPastGuess(playersGuess, pastGuesses)) {
-            updateText('You have guessed that number already! Guess a different number.');
-        } else {
-            addWrongGuessToPastGuesses(playersGuess, pastGuesses);
-            if(isGameOver(pastGuesses)) {
-                youLose();
-            } else {
-                const text = howClose(playersGuess, winningNumber);
-                updateText(text);
-            }
-        }
-    }
-}
-
-```
-
-</details>
+**[Click Here](./jsSolution.md) to see the solution--Make sure you try on your own first!**
 
 Congratulations! You've programmed a web game!
