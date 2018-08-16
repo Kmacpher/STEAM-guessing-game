@@ -5,17 +5,15 @@
 - Link to solution: https://github.com/Kmacpher/STEAM-guessing-game-solution
 
 ### Instructor Lesson Plan - topics to cover
-_More instructions for each topic can be found in the presenter notes in the slides_
 
 #### Lecture/Labs
 
-1. Brief introduction to Browsers and the Web
-2. Building blocks of making a web application/game
+1. Building blocks of making a web application/game (slides)
     - HTML
     - CSS
     - JavaScript
     - How do these three technologies work together at a high level?
-3. HTML
+2. HTML (Live)
     - Some HTML syntax (headers, divs, lists)
     - 10 min LIVE CODE
       - Create an html document
@@ -23,19 +21,20 @@ _More instructions for each topic can be found in the presenter notes in the sli
       - open the document in the browser
       - add another element and refresh browser
       - have the students experiment on their own machines for 5 min
-4. CSS
+3. CSS (Live)
     - cover tags, ids, and classes
     - 10 min LIVE CODE
       - Add background color/image using the body tag
       - add color or center a header using an id
       - something using a class
       - connect css to html using the link tag
-5. JavaScript
+4. JavaScript (Live)
     - There's no way we can cover much javascript. This is really just an introduction to programming at a high level.
     - Biggest topics for this project will be
+      - basic variables
       - if else
       - functions (using them, not defining them)
-6. Introduce workshop
+5. Introduce workshop (Live)
     - Show the final product (open from `solution` branch, also is hosted [here](https://kmacpher.github.io/STEAM-guessing-game-solution/)) and walk through the functionality
     - Show the files they will be using, along with the workshop text.
     - Walk through at a high level the functions that they can use in `game.js`, and where they will write their code
